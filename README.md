@@ -1,0 +1,28 @@
+# All-odd-number-till-the-range
+Take a number as a input from the user and print all the series of odd number till the range
+<! DOCKTYPE html>
+<html>
+    <head>
+        <title>
+            Printing All Odd number till range
+        </title>
+    </head>
+    <body>
+        <center>
+            <h3>
+                <u>List Of Odd number</u>
+            </h3>
+        </center>
+        <script>
+            var i;
+            var number;
+            number = prompt("Enter Your range of Odd number");
+            confirm("Your last range number is "+number);
+            document.write("Your range to print the odd number is "+ number+"<br>");
+            for(i=1; i<=number; i+=2)
+            {
+                document.write("Your odd number in series is= "+i+"<br>");
+            } 
+        </script>
+    </body>
+</html>
