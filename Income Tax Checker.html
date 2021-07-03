@@ -1,0 +1,74 @@
+<!--Take name as salary as a input From the use and calculate his/her income tax to be paid -->
+<! DOCKTYPE html>
+<html>
+    <head>
+        <title>
+            INCOME TAX CHECKER
+        </title>
+    </head>
+    <body>
+        <center>
+            <h3>
+                <u>
+                    Income Tax Calculator
+                </u>
+            </h3>
+        </center>
+        <script>
+            var Name, Salary, Tax_Amount;
+            
+            name = prompt("Enter Your name :");
+            confirm("Your name is "+name+" Please Confirm");
+
+            Salary = prompt("Enter Your Salary: ");
+            confirm("Your monthly salary is "+Salary+" Please Confirm");
+
+            if(Salary>=100000)
+            {
+                Tax_Amount = (Salary*15/100)
+                document.write("Your name is "+name+" and your tax Payable Amount is "+Tax_Amount);
+            }
+            
+            else if(Salary>=85000)
+            {
+                Tax_Amount = (Salary*12/100)
+                document.write("Your name is "+name+" and your tax Payable Amount is "+Tax_Amount);
+            }
+            
+            else if (Salary>=75000)
+            {
+                Tax_Amount = (Salary*10/100)
+                document.write("Your name is "+name+" and your tax Payable Amount is "+Tax_Amount);
+            }
+            
+            else if (Salary>=50000)
+            {
+                Tax_Amount = (Salary*8/100)
+                document.write("Your name is "+name+" and your tax Payable Amount is "+Tax_Amount);
+            }
+            
+            else if (Salary>=40000)
+            {
+                Tax_Amount = (Salary*6/100)
+                document.write("Your name is "+name+" and your tax Payable Amount is "+Tax_Amount);
+            }
+            
+            else if (Salary>=30000)
+            {
+                Tax_Amount = (Salary*4/100)
+                document.write("Your name is "+name+" and your tax Payable Amount is "+Tax_Amount);
+            }
+            
+            else if (Salary>=20000)
+            {
+                Tax_Amount = (Salary*2/100)
+                document.write("Your name is "+name+" and your tax Payable Amount is "+Tax_Amount);
+            }
+            
+            else
+            {
+            document.write("Your name is "+name+"and you are out of tax payable");
+            }
+        </script>
+    </body>
+</html>

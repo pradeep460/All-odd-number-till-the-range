@@ -1,0 +1,40 @@
+<!--Make a School Report card taking marks as a input from the use and show him/her grades-->
+
+<! DOCKTYPE html>
+<html>
+    <head>
+        <title>
+            School Report Card
+        </title>
+    </head>
+    <body>
+        <center>
+            <h3>
+                <u>REPORT CARD</u>
+            </h3>
+        </center> 
+        <script>
+            var marks;
+            marks = prompt("Enter Your marks :");
+            if(marks>=90)
+            {
+                document.write("Your rank is A+");
+            }
+            else if (marks>=75)
+            {
+                document.write("Your rank is A");
+            }
+            else if(marks>=50)
+            {
+                document.write("Your rank is B");
+            }
+            else if(marks>=40)
+            {
+                document.write("Your rank is C");
+            }
+            else{
+                document.write("You are Fail");
+            }
+        </script>
+    </body>
+</html>

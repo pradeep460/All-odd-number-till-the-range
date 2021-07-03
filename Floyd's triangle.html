@@ -1,0 +1,31 @@
+<!--Take a input from the user and make a Floyd's Triangle-->
+
+<! DOCKTYPE html>
+<html>
+    <head>
+        <title>
+            Floyd's Triangle
+        </title>
+    </head>
+    <body>
+        <center>
+            <h3>
+                <u>
+                    Floyd's Triangle
+                </u>
+            </h3>
+        </center>
+        <script>
+           var row, column;
+           var number = prompt("Enter your Range of Rows");
+           for(row=1; row<=number; row++)
+           {
+               for(column=1; column<=row; column++)
+               {
+                   document.write(row*column+" ")
+               }
+               document.write("<br>")
+           }
+        </script>
+    </body>
+</html>

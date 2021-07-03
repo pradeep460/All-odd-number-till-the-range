@@ -1,0 +1,36 @@
+<!--take a range of rows a as input and make a full pyramid using Star-->
+
+<! DOCKTYPE html>
+<html>
+    <head>
+        <title>
+            FULL TRIANGLE
+        </title>
+    </head>
+    <body>
+        <center>
+            <h3>
+                <u>
+                    FULL TRIANGLE USING STARS 
+                </u>
+            </h3>
+        </center>
+        <script>
+            var i,j;
+            var row = prompt("Enter The Number of Rows:");
+            confirm("Your number of rows are "+row);
+            for(i=1; i<=row; i++)
+            {
+                for(j=i; j<=row; j++)
+                {
+                    document.write("&nbsp");
+                }
+                for(j=1; j<=i; j++)
+                {
+                    document.write("*");
+                }
+                document.write("<br>");
+            } 
+        </script>
+    </body>
+</html>

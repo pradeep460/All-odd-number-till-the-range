@@ -1,0 +1,30 @@
+<!--take a range Of rows and column from the user and make a multilpication Table-->
+<! DOCKTYPE html>
+<html>
+    <head>
+        <title>
+            Multilpication Table
+        </title>
+    </head>
+    <body>
+        <center>
+            <h3>
+                <u>Multilpication Table From 1 to 10</u>
+            </h3>
+        </center>
+        <script>
+            var row,column,input_1,input_2,multilpication;
+            row = prompt("Enter Your range Of rows");
+            column = prompt("Enter Your range Of column");
+            for(row=1; row<=10; row++)
+            {
+                for(column=1; column<=10; column++)
+                {
+                    multilpication = row*column
+                    document.write(multilpication+" ")
+                }
+                document.write("<br><p>")
+            }
+        </script>
+    </body>
+</html>

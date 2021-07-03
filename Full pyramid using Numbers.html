@@ -1,0 +1,32 @@
+<!--Take a range of rows as a input from the user and make a full Pyramid of numbers -->
+<! DOCKTYPE html>
+<html>
+    <head>
+        <title>
+            FULL TRIANGLE
+        </title>
+    </head>
+    <body>
+        <center>
+            <h3>
+                FULL TRIANGLE
+            </h3>
+        </center>
+        <script>
+            var i,j;
+            var rows = prompt("Enter the range Of rows:");
+            for(i=1; i<=rows; i++)
+            {
+                for(j=i; j<=rows; j++)
+                {
+                    document.write("&nbsp");
+                }
+                for(j=1; j<=i; j++)
+                {
+                    document.write(j);
+                }
+                document.write("<br>")
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,36 @@
+<!--Take name as a Input From the user and find the number of Vowel in your name -->
+<! DOCKTYPE html>
+<html>
+    <head>
+        <title>
+            Vowel Function
+        </title>
+    </head>
+    <body>
+        <center>
+            <h3>
+                <u>
+                    Number Of Vowel Checker In your Name:
+                </u>
+            </h3>
+        </center>
+        <script>
+            var name = prompt("Enter Your Name:");
+            confirm("Your name is "+name+" Please Confirm:");
+            var count = 0;
+            var i;
+            function VowelCounter(myvowel)
+            {
+                for(i=0; i<=myvowel.length; i++)
+                {
+                    if(name[i]=="a" || name[i]== "e" || name[i]== "i" || name[i]== "o" || name[i]== "u")
+                    {
+                        count=count+1;
+                    }
+                }
+                document.write("The number of Vowel in your name are "+count);
+            }
+            VowelCounter(name);
+        </script>
+    </body>
+</html>

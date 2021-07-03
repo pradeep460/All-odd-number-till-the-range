@@ -1,0 +1,29 @@
+<!--Take radius as a input from the user and find the area and perimeter of the circle-->
+<! DOCKTYPE html>
+<html>
+    <head>
+        <title>
+            Circle Area and Perimeter Calculation
+        </title>
+    </head>
+    <body>
+        <center>
+            <h3>
+                <u>Circle Area Calculator</u>
+            </h3>
+        </center>
+        <center>
+        <script>
+            var radius, area,perimeter;
+            const pi=3.14;
+            radius = prompt("Enter The radius of the circle");
+            document.write("Your radius onf the circle is "+radius+"<br><br>");
+            
+            area = pi*(radius*radius);
+            document.write("Area Of the Circle is "+area+"<br><br>");
+            perimeter = 2*pi*radius;
+            document.write("Perimeter Of the Circle is "+perimeter); 
+        </script>
+        </center>
+    </body>
+</html>

@@ -1,0 +1,48 @@
+<!--Take input of floor number from the user and 
+    tell the user in which floor OT floor is available-->
+
+<! DOCKTYPE html>
+<html>
+    <head>
+        <title>
+            Switch Case
+        </title>
+    </head>
+    <body bgcolor="lightcyan">
+        <center>
+            <h3>
+                <u>Known Your OT Floor Number</u>
+            </h3>
+        </center>
+        <script>
+            var floor_number;
+            floor_number = parseInt(prompt("Enter Your Floor number:"));
+            confirm("Your Floor number is "+floor_number+" please confirm");
+            switch(floor_number)
+            {
+                case 1:
+                    document.write("You are at 1st Floor, it is not a OT floor");
+                    break
+
+                    case 2:
+                        document.write("You are at 2nd Floor, it is not a OT floor");
+                        break
+
+                        case 3:
+                            document.write("You are at 3rd Floor , it is not a OT Floor");
+                            break
+
+                            case 4:
+                                document.write("Yo are at 4th floor , it is a OT floor");
+                                break
+
+                                case 5:
+                                    document.write("You are at 5th Floor , it is not a OT floor");
+                                     break
+
+                                     default:
+                                         document.write("Enter a valid number:");
+            }
+        </script>
+    </body>
+</html>

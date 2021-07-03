@@ -1,0 +1,39 @@
+<!--Take a number as a input from the user and check whether the number is a pime number or not-->
+<! DOCKTYPE html>
+<html>
+    <head>
+        <title>
+            Prime Or Not Prime
+        </title>
+    </head>
+    <body>
+        <center>
+            <h3>
+                <u>
+                    Prime Or Not Prime 
+                </u>
+            </h3>
+        </center>
+        <script>
+            var number,count,i;
+            count = 0; // It acts as a Counter
+            number = prompt("Enter Your number");
+            for(i=2; i<number; i++)
+            {
+                check= number%i; //it devide or percentise the user input with i and store in count.
+                if(check==0) //if the reminder is 0 then the counter increses by 1
+                {
+                    count=1; // counter incresed by 1.
+                }
+            }
+            if(count==0)
+            {
+                document.write("Your number is "+number+" And the number is a <u>Prime number</u>");
+            }
+            else
+            {
+                document.write("Your number is "+number+" And the number is not a <u>Prime number</u>");
+            }
+        </script>
+    </body>
+</html>

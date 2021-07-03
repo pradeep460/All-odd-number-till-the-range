@@ -1,0 +1,30 @@
+<!--Take a Number as a Input from the user and reverse the number-->
+<! DOCKTYPE html>
+<html>
+    <head>
+        <title>
+            REVERSER OF A NUMBER
+        </title>
+    </head>
+    <body>
+        <center>
+            <h3>
+                <u>
+                    REVERSER OF A NUMBER        
+                </u>
+            </h3>
+        </center>
+        <script>    
+            var number = prompt("Enter Your Number:");
+            confirm("Your input Number is "+number);
+            document.write("Original Number is "+number);
+            var reverse =0;
+            while(number != 0)
+            {
+                reverse = (reverse*10)+(number%10);
+                number = parseInt(number/10);
+            }
+            document.write("The Reverse Number is "+reverse);
+        </script>
+    </body>
+</html>

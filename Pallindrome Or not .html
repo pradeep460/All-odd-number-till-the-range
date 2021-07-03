@@ -1,0 +1,38 @@
+<!--Take a number as a input from the user and find the number is Pallindrome or not-->
+
+<! DOCKTYPE html>
+<html>
+    <head>
+        <title>
+            PALLINDROME OR NOT
+        </title>
+    </head>
+    <body>
+        <center>
+            <h3>
+                <u>
+                    MIRREO IMAGE OF A NUMBER
+                </u>
+            </h3>
+        </center>
+        <script>
+            var number;
+            number = prompt("Enter Your Number:");
+            var originam_number = number;
+            var reverse = 0;
+            while(number != 0)
+            {
+                reverse = (reverse*10)+(number%10);
+                number = parseInt(number/10)
+            }
+            if(originam_number == reverse)
+            {
+                document.write(reverse+" is a Pallindrome Number");
+            }
+            else
+            {
+                document.write(reverse+" is not a Pallindrome Number");
+            }
+        </script>
+    </body>
+</html>

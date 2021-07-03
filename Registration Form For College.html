@@ -1,0 +1,82 @@
+<!--Make a College registration Form for the students-->
+<! DOCKTYPE html>
+<html>
+    <head>
+        <!-- <link rel="stylesheet" href="Registration form.css"> -->
+        <title>
+            REGISTRATION FORM
+        </title>
+    </head>
+    <body bgcolor="lightcyan">
+        <center>
+            <h2>
+                <strong>
+                    <u>
+                        <font face="Bahnschrift SemiBold" color="black">
+                        COLLEGE REGISTRATION FORM
+                        </font>
+                    </u>
+                </strong>
+            </h2>
+        </center>
+        <marquee  behavior ="Alternate" scrollamount="10ms" scroll direction="right" bgcolor="violet">
+        <strong><font face="arial" size="3" color="red">
+        STUDENT REGISTRATION PROCESS IS GOING ON
+        </font></strong>
+        </marquee>
+        <br><br>
+        <marquee behavior ="Alternate" scrollamount="10ms" direction="right" bgcolor="yellow">
+            <font face="arial" size= "3" color="magneta">
+                <strong>Hurry, Limited Seats Available...</strong>
+            </font>
+        </marquee>
+        <br><br>
+        <form action="Conngratualation page.html">
+            <label><strong>First Name:</strong></label><input type="text" name="fname" placeholder="Enter Your First Name">
+            <label><strong>last Name:</strong></label><input type="text" name="lname" placeholder="Enter Your Last Name">
+            <br><br>
+            <label><strong>Date Of Birth:</strong></label><input type="date" name="dob" placeholder="Enter Your Date Of Birth">
+            <br><br>
+            <strong>
+                CONTACT DETAILS:
+            </strong>
+            <br><br>
+            <label><strong>Address:</strong></label><textarea name="address" rows="5" cols="35" placeholder="Enter Your address"></textarea>
+            <br><br>
+            <label><strong>Primary Number:</strong></label>
+            <input type="number" name="Primary Contact" placeholder="Enter Your Primary Contact Number">
+            <label><strong>Secondry Number:</strong></label>
+            <input type="number" name="Secondry Number" placeholder="Enter Your Secondry Contact Number">
+            <br><br>
+            <label><strong>Gender:</strong></label>
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="Female">Female
+            <input type="radio" name="gender" value="Others"> Others 
+            <br><br>
+            <label><strong>Last Qualification:</strong></label>
+            <select name="Qualification">
+                <option value="10th">10th</option>
+                <option value="12th">12th</option>
+                <option value="Graduation">Graduation</option>
+                <option value="Masters">Masters</option>
+                <option value="Diploma">Diploma</option>
+            </select>
+            <br><br>
+            <label><strong>Hobby:</strong></label>
+            <input type="checkbox" name="Hobby" value="Dancing">Dancing
+            <input type="checkbox" name="Hobby" value="Singing">Singing
+            <input type="checkbox" name="Hobby" value="Programming">Programming
+            <input type="checkbox" name="Hobby" value="Karate">Karate
+            <input type="checkbox" name="Hobby" value="Coding">Coding
+            <input type="checkbox" name="Hobby" value="Playing">Playing
+            <input type="checkbox" name="Hobby" value="Swimming">Swimming
+            <input type="checkbox" name="Hobby" value="Painting">Painting
+            <br><br>
+            <label><strong>Attach a Photo:</strong></label>
+            <input type="file" name="image">
+            <br><br>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>

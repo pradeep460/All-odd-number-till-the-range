@@ -1,0 +1,29 @@
+<!--Take a number as a input from the user anf Find the factorial of the number-->
+<! DOCKTYPE html>
+<html>
+    <head>
+        <title>
+            FACTORIAL
+        </title>
+    </head>
+    <body>
+        <center>
+            <h3>
+                <u>
+                    FACTORIAL
+                </u>
+            </h3>
+        </center>
+        <script>
+            var number = prompt("Enter Your Number:");
+            var fact =1;
+            var i=1;
+            for(i=1; i<=number; i++)
+            {
+                fact = fact*i
+                i++
+            }
+            document.write("The Factorial of "+number+" is"+fact);
+        </script>
+    </body>
+</html>

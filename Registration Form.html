@@ -1,0 +1,52 @@
+<!--Student Colledge Registration Form-->
+<! DOCKTYPE html>
+<html>
+    <head>
+        <title>
+            Registration Form
+        </title>
+    </head>
+    <body bgcolor="red" text="white">
+        <center><h2><u><font face="consolas" color="blue">Student Registration Form</font></u></h2></center>
+        <marquee scrollamount="10ms" direction="right" bgcolor="Yellow">
+        <font face="arial" color="Black"><strong>Student Registration Process is Going on</strong></font> 
+        </marquee>
+        <br><br>
+        <form>
+            <label><b>First Name:</b></label><input type="text" name="fname" placeholder="Enter Your first name">
+            <br><br>
+            <label><b>Last Name:</b></label><input type="text" name="lname" placeholder="Enter Your last name ">
+            <br><br>
+            <label><b>Date Of Birth:</b></label><input type="date" name="Date of birth" placeholder="Enter your Date of Birth">
+            <br><br>
+            <label><b>Address:</b></label><textarea name="Address" cols="35" rows="5" placeholder="Enter your permanent adderss"></textarea>
+            <br><br>
+            <label><b>Contact Number:</b></label><input type="number" name="contact number" placeholder=" Primary Contact Number">
+            <br><br>
+            <label><b>Alternative Contact Number:</b></label><input type="number" name="alternative Contact Number" placeholder="Enter Your alternative Number">
+            <br></br>
+            <label><b>Gender:</b></label>
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name= "gender" value="Female">Female
+            <input type="radio" name= "gender" value="Transgender">Transgender
+            <br><br>
+            <label><strong>Qualification:</strong></label><select name="qualification">
+            <option value="10th">10th</option>
+            <option value="12th">12th</option>
+            <option value="Graduation">Graduation</option>
+            <option value="Masters">Masters</option> 
+            </select>
+            <br><br>
+            <label><strong>Hobby:</strong></label>
+            <input type="checkbox" name="Hobby" value="Singing">Singing
+            <input type="checkbox" name="Hobby" value="Dancing">Dancing
+            <input type="checkbox" name="Hobby" value="Programming">Programming
+            <input type="checkbox" name="Hobby" value="Reading">Reading
+            <input type="checkbox" name ="Hobby" value="Painting">Painting
+            <br><br>
+            <label><b>Attach your Image:</b></label><input type="file" name ="Image">
+            <br><br>
+            <input type="reset" value="reset"> <input type="submit" value="submit">
+        </form>
+    </body>
+</html>

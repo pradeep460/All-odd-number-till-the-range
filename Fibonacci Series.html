@@ -1,0 +1,35 @@
+<!--Take a range from the user and make a Fibonaci Series-->
+<! DOCKTYPE html>
+<html>
+    <head>
+        <title>
+            Fibonacci Series
+        </title>
+    </head>
+    <body>
+        <center>
+            <h3>
+                <u>
+                    Fibonacci Series
+                </u>
+            </h3>
+        </center>
+        <script>
+            var number = prompt("Upto which number You want your Fibonacci Seriers:");
+            var a =0;
+            var b =1;
+            var c;
+            document.write("The Fibonacci Series is:-");
+            document.write(a+" ");
+            document.write(b+" ");
+            c=a+b;
+            while(c<=number)
+            {
+                document.write(c+" ");
+                a=b;
+                b=c;
+                c=a+b;
+            }
+        </script>
+    </body>
+</html>
